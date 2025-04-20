@@ -92,7 +92,7 @@ const ContactPage: React.FC = () => {
 
           <div className="pt-6">
             <p className="text-gray-600 dark:text-gray-400 font-medium">
-              We're available 7 days a week. Feel free to contact us anytime!
+                 {"We're available 7 days a week. Feel free to contact us anytime!"}
             </p>
           </div>
         </div>
