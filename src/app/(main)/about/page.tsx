@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 const AboutPage: React.FC = () => {
   return (
@@ -24,9 +25,11 @@ const AboutPage: React.FC = () => {
 
         {/* Image Section */}
         <div className="md:w-1/2 flex justify-center animate-fade-in">
-          <img
+          <Image
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEuDy-D5cNhsGCdI_faWWXQ7Qpt8SxAhmehQ&s"
             alt="About Us"
+            width={40}
+            height={40}
             className="w-full max-w-md rounded-3xl shadow-xl border-4 border-white"
           />
         </div>
@@ -53,7 +56,7 @@ const AboutPage: React.FC = () => {
           {/* Footer */}
           <div className="p-5 bg-gray-50 text-center">
             <p className="text-md text-gray-600">
-              Discover our journey and how we're building a strong student community!
+              Discover our journey and how we are building a strong student community!
             </p>
           </div>
         </div>
