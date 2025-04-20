@@ -9,7 +9,7 @@ const ContactPage: React.FC = () => {
           Contact Us
         </h2>
         <p className="text-lg text-gray-700 dark:text-gray-300 font-medium max-w-2xl mx-auto">
-          We'd love to hear from you! Reach out through any of our platforms below.
+          {" We'd love to hear from you! Reach out through any of our platforms below. "}
         </p>
       </div>
 
