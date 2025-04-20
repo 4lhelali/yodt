@@ -24,6 +24,8 @@ const ContactPage: React.FC = () => {
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
                   alt="Instagram"
+                  width={40}
+                  height={40}
                   className="w-10 h-10"
                 />
               </div>
@@ -48,6 +50,8 @@ const ContactPage: React.FC = () => {
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png"
                   alt="YouTube"
+                  width={40}
+                  height={40}
                   className="w-10 h-10"
                 />
               </div>
@@ -92,7 +96,7 @@ const ContactPage: React.FC = () => {
 
           <div className="pt-6">
             <p className="text-gray-600 dark:text-gray-400 font-medium">
-                 {"We're available 7 days a week. Feel free to contact us anytime!"}
+                 We&apos;re available 7 days a week.
             </p>
           </div>
         </div>
