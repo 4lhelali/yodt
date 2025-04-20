@@ -12,7 +12,7 @@ const ContactPage: React.FC = () => {
           Contact Us
         </h2>
         <p className="text-lg text-gray-700 dark:text-gray-300 font-medium max-w-2xl mx-auto">
-          We'd love to hear from you! Reach out through any of our platforms below.
+          We would love to hear from you! Reach out through any of our platforms below
         </p>
       </div>
 
@@ -29,6 +29,7 @@ const ContactPage: React.FC = () => {
                   alt="Instagram"
                   width={40}
                   height={40}
+                  className="w-10 h-10"
                 />
               </div>
               <h3 className="text-2xl font-semibold text-blue-600 dark:text-blue-400">Instagram</h3>
@@ -55,6 +56,7 @@ const ContactPage: React.FC = () => {
                   alt="YouTube"
                   width={40}
                   height={40}
+                  className="w-10 h-10"
                 />
               </div>
               <h3 className="text-2xl font-semibold text-red-600">YouTube</h3>
@@ -99,7 +101,7 @@ const ContactPage: React.FC = () => {
 
           <div className="pt-6">
             <p className="text-gray-600 dark:text-gray-400 font-medium">
-              We're available 7 days a week. Feel free to contact us anytime!
+              We are available 7 days a week. Feel free to contact us anytime!
             </p>
           </div>
         </div>
