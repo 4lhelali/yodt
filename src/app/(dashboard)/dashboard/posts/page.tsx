@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/table";
 import { db } from "@/server/db";
 import { posts } from "@/server/db/schema";
-import { Edit, Plus, Trash2 } from "lucide-react";
+import { Plus } from "lucide-react";
 import Link from "next/link";
 import DeleteButton from "@/components/ui/deleteButtonFPost";
 
