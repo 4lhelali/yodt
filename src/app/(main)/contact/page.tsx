@@ -9,7 +9,7 @@ const ContactPage: React.FC = () => {
           Contact Us
         </h2>
         <p className="text-lg text-gray-700 dark:text-gray-300 font-medium max-w-2xl mx-auto">
-          {" We'd love to hear from you! Reach out through any of our platforms below. "}
+           We'd&apos; love to hear from you! Reach out through any of our platforms below. 
         </p>
       </div>
 
@@ -32,7 +32,7 @@ const ContactPage: React.FC = () => {
               <h3 className="text-2xl font-semibold text-blue-600 dark:text-blue-400">Instagram</h3>
             </div>
             <p className="text-md text-gray-700 dark:text-gray-300 font-medium">
-              Follow <span className="font-semibold">KarabukYodt</span> for event updates and more!
+              Follow&apos; <span className="font-semibold">KarabukYodt</span> for event updates and more!
             </p>
             <a
               href="https://www.instagram.com/yod_karabuk/reels/"
@@ -58,7 +58,7 @@ const ContactPage: React.FC = () => {
               <h3 className="text-2xl font-semibold text-red-600">YouTube</h3>
             </div>
             <p className="text-md text-gray-700 dark:text-gray-300 font-medium">
-              Subscribe to <span className="font-semibold">KarabukYodt</span> and stay connected!
+              Subscribe&apos; to <span className="font-semibold">KarabukYodt</span> and stay connected!
             </p>
             <a
               href="https://www.youtube.com/@%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D8%A7%D9%84%D8%B7%D9%84%D8%A7%D8%A8%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D9%8A%D9%86%D9%83%D8%A7%D8%B1%D8%A7%D8%A8%D9%88%D9%83"
